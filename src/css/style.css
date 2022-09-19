@@ -44,6 +44,17 @@ body {
   flex-direction: column;
 }
 
+.button {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 44px;
+  padding: 10px 30px;
+  display: flex;
+  border-radius: 50px;
+  color: #fff;
+}
+
 /* ===== HEADER ==================================================================== */
 .header {
   font-size: 16px;
@@ -81,19 +92,11 @@ body {
 }
 
 .header__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 44px;
-  padding: 10px 30px;
   background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
-  border-radius: 50px;
-  color: #fff;
 }
 
 /* ===== MAIN ==================================================================== */
-.page {
+.main-block__body {
   margin: 218px 0;
 }
 
@@ -138,6 +141,7 @@ body {
   position: relative;
 }
 ._ibg img {
+  position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
@@ -153,4 +157,45 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+.last-line {
+  background: #121212;
+  min-height: 130px;
+  display: flex;
+}
+
+.last-line__column {
+  display: flex;
+  flex-direction: column;
+}
+.last-line__column:not(:last-child) {
+  margin: 0 81px 0 0;
+}
+
+.last-line__body {
+  display: flex;
+  align-items: center;
+  min-width: 1300px;
+}
+
+.last-line__button {
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+.last-line__item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 10px 0;
+}
+
+.last-line__text {
+  padding: 0 30px 0 0;
+  line-height: 150%;
+  opacity: 0.4;
+}
+
+.last-line__value {
+  font-weight: 700;
+  line-height: 150%;
 }/*# sourceMappingURL=style.css.map */
