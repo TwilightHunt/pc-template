@@ -55,6 +55,12 @@ body {
   color: #fff;
 }
 
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+}
+
 /* ===== HEADER ==================================================================== */
 .header {
   font-size: 16px;
@@ -159,6 +165,7 @@ body {
   z-index: -1;
 }
 
+/* ===== MAIN-LINE ==================================================================== */
 .last-line {
   background: #121212;
   min-height: 130px;
@@ -198,4 +205,22 @@ body {
 .last-line__value {
   font-weight: 700;
   line-height: 150%;
+}
+
+/* ===== ABOUT ==================================================================== */
+.about {
+  padding: 200px 0;
+  display: flex;
+}
+
+.about__body {
+  margin: 69px 0 0 135px;
+}
+
+.about__title {
+  padding: 0 0 45px 0;
+}
+
+.about__text {
+  line-height: 160%;
 }/*# sourceMappingURL=style.css.map */
