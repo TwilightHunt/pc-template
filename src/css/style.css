@@ -55,7 +55,7 @@ body {
   color: #fff;
 }
 
-.title {
+h2 {
   font-weight: 700;
   font-size: 48px;
   line-height: 140%;
@@ -285,4 +285,32 @@ body {
   font-size: 14px;
   line-height: 160%;
   opacity: 0.5;
+}
+
+/* ===== CONDITIONS ==================================================================== */
+.condition__title {
+  margin: 200px 0 120px 0;
+}
+
+.condition__body {
+  display: flex;
+}
+
+.condition__item {
+  text-align: center;
+}
+.condition__item:not(:last-child) {
+  margin: 0 82px 0 0;
+}
+
+.condition__item__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  margin: 60px 0 30px 0;
+}
+
+.condition__item__text {
+  line-height: 160%;
+  opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */
