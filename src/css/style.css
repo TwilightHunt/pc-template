@@ -313,4 +313,41 @@ h2 {
 .condition__item__text {
   line-height: 160%;
   opacity: 0.8;
+}
+
+/* ===== PARTNERS ==================================================================== */
+table {
+  border-collapse: collapse;
+}
+
+.partners {
+  padding: 230px 0 0 0;
+}
+
+.partners__head {
+  display: flex;
+  margin: 0 0 90px 0;
+}
+
+.partners__image {
+  margin: 0 52px 0 0;
+}
+
+.partners__row {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: none;
+  border-right: none;
+}
+.partners__row:first-child {
+  border-top: none;
+}
+.partners__row:last-child {
+  border-top: none;
+}
+
+.partnets__item {
+  padding: 29px 66px;
+}
+.partnets__item:not(:last-child) {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
 }/*# sourceMappingURL=style.css.map */
