@@ -223,4 +223,66 @@ body {
 
 .about__text {
   line-height: 160%;
+}
+
+/* ===== STATS ==================================================================== */
+.stats__title {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 50px 0;
+}
+
+.stats__title__icon {
+  margin: 0 20px 0 0;
+}
+
+.stats__text {
+  line-height: 160%;
+  opacity: 0.5;
+}
+
+.stats__body {
+  margin: 80px 0 0 0;
+  display: flex;
+}
+
+.body-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.body-item__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 140%;
+}
+
+.body-item__content {
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.body-item__content_100 {
+  min-height: 80px;
+  margin: 20px 0 35px 0;
+}
+
+.body-item__content_75 {
+  min-height: 60px;
+  background: linear-gradient(94.26deg, #7C6AFA 9.51%, #C89AFC 90.23%);
+}
+
+.body-item__content_50 {
+  min-height: 30px;
+}
+
+.body-item__content_summary {
+  min-height: 10px;
+  background: linear-gradient(94.26deg, #7C6AFA 9.51%, #C89AFC 90.23%);
+}
+
+.body-item__text {
+  font-size: 14px;
+  line-height: 160%;
+  opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */
