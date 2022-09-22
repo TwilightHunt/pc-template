@@ -29,6 +29,12 @@ h2{
 .page{
     padding: 30px 0;
 }
+._container {
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 /* ===== HEADER ==================================================================== */
 .header {   
     font-size: 16px;
@@ -42,15 +48,12 @@ h2{
     justify-content: space-between;
     margin: 48px 80px 20px 80px;
     align-items: center;
-}
-._container {
-    max-width: 1300px;
-    padding: 0 15px;
-    margin: 0 auto;
-    box-sizing: border-box;
+    position: relative;
 }
 .menu__list {
     display: flex;
+    position: absolute;
+    right: 533px;
 }
 .menu__item {
     &:not(:last-child){
@@ -65,8 +68,20 @@ h2{
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
 }
 /* ===== MAIN ==================================================================== */
+.page__main{
+    // &::after{
+    //     width: 100%;
+    //     display: inline-block;
+    //     content: ' ';
+    //     background: #121212;
+    //     min-height: 130px;
+    //     position: absolute;
+    //     z-index: -1;
+    // }
+}
 .main-block__body {
     margin: 198px 0;
+    
 }
 .main-page__title {
     font-weight: 700;
@@ -124,6 +139,7 @@ h2{
     background: #121212;
     min-height: 130px;
     display: flex;
+    justify-content: flex-start;
 }
 .last-line__column {
     display: flex;
@@ -144,7 +160,12 @@ h2{
    display: flex;
    justify-content: space-between;
    margin: 0 0 10px 0;
+   max-width: 300px;
 }
+.last-line__item_short{
+    margin: 0 0 10px 0;
+    display: flex;
+ }
 .last-line__text {
     padding: 0 30px 0 0;
     line-height: 150%;
@@ -154,6 +175,30 @@ h2{
     font-weight: 700;
     line-height: 150%;
 }
+.last-line__bar {
+    background-color: #fff;
+    min-height: 6px;
+    position: relative;
+    width: 714px;
+}
+.last-line__fill {
+    width: 61%;
+    min-height: 6px;
+    display: block;
+    position: relative;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+.last-line__sum {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 0 0;
+}
+.last-line__sum__value {
+    line-height: 150%;
+    text-align: right;
+    opacity: 0.4;
+}
+
 /* ===== ABOUT ==================================================================== */
 .about {
     padding: 200px 0;
@@ -197,10 +242,10 @@ h2{
 }
 .body-item__content {
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    margin: 20px 0 35px 0;
 }
 .body-item__content_100 {
     min-height: 80px;
-    margin: 20px 0 35px 0;
 }
 .body-item__content_75 {
     min-height: 60px;
